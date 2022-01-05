@@ -2,3 +2,7 @@ main: me.dogegamer.coolteams.CoolTeams
 name: CoolTeams
 version: 0.0.1
 author: DogeGamer
+
+commands:
+  teams:
+    aliases: team
