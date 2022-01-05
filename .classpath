@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Minecraft jars/craftbukkit-1.8.jar"/>
+	<classpathentry kind="lib" path="E:/Cosas/Server/Cosas/Jars/craftbukkit-1.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
