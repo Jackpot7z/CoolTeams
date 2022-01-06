@@ -4,6 +4,8 @@ version: 0.0.1
 author: DogeGamer
 
 commands:
-  teams:
+  team:
+    usage: "/team help"
     description: Main teams command.
-    aliases: team
+    aliases: teams
+ 
