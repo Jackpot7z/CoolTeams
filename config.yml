@@ -1,2 +1,2 @@
-# Put -1 if you don't want a limit for the team size
+# Set this to -1 if you don't want a limit for the team size
 teamSizeLimit: -1
