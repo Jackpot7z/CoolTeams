@@ -20,7 +20,7 @@ public class TeamsCommand implements CommandExecutor {
 			"&a/team sethome &e- set team home",
 			"&a/team home &e- teleport to team home",
 			"&a/team list &e- list team players",
-			"&a/team kick [player] &e- kicl a team player",
+			"&a/team kick [player] &e- kick a team player",
 			"&a/team config &e- show the config commands",
 			"&a/team promote [player] &e- promote a player",
 	};
