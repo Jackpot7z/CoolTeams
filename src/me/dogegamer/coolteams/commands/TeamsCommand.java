@@ -33,6 +33,9 @@ public class TeamsCommand implements CommandExecutor {
 				sender.sendMessage(Messager.color(
 						"&aThe configuration has been reloaded."));
 			} else if (args[0].equalsIgnoreCase("help")) {
+				for(String line : helpLines) {
+					sender.sendMessage(Messager.color(line));
+				}
 			} else {
 				sender.sendMessage(Messager.color(
 					"&cInvalid arguments! &7Use &b/teams help &7to get help."));
