@@ -20,7 +20,7 @@ public class TeamsCommand implements CommandExecutor {
 			"&a/team sethome &e- set team home",
 			"&a/team home &e- teleport to team home",
 			"&a/team list &e- list team players",
-			"&a/team kick [player] &e- kicl a team player",
+			"&a/team kick [player] &e- kick a team player",
 			"&a/team config &e- show the config commands",
 			"&a/team promote [player] &e- promote a player",
 			"&a/team chat [message] &e- send a message to the team ",
@@ -34,6 +34,9 @@ public class TeamsCommand implements CommandExecutor {
 				sender.sendMessage(Messager.color(
 						"&aThe configuration has been reloaded."));
 			} else if (args[0].equalsIgnoreCase("help")) {
+				for(String line : helpLines) {
+					sender.sendMessage(Messager.color(line));
+				}
 			} else {
 				sender.sendMessage(Messager.color(
 					"&cInvalid arguments! &7Use &b/teams help &7to get help."));
