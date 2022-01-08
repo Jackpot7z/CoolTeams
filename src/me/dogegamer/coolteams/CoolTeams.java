@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import me.dogegamer.coolteams.commands.TeamsCommand;
 
-public class CoolTeams extends JavaPlugin{
+public class CoolTeams extends JavaPlugin {
 
 	public static final String prefix = "[CoolTeams] ";
 	
@@ -34,5 +34,4 @@ public class CoolTeams extends JavaPlugin{
 			saveResource("config.yml", true);
 		config = YamlConfiguration.loadConfiguration(file);
 	}
-
 }

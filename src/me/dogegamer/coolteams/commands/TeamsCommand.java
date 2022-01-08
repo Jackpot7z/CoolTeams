@@ -23,6 +23,7 @@ public class TeamsCommand implements CommandExecutor {
 			"&a/team kick [player] &e- kicl a team player",
 			"&a/team config &e- show the config commands",
 			"&a/team promote [player] &e- promote a player",
+			"&a/team chat [message] &e- send a message to the team ",
 	};
 	
 	@Override
